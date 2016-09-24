@@ -37,7 +37,7 @@ nav a {
 }
 
 .navi-top {
-  border-bottom: solid black;
+  border-bottom: 1px solid black ;
   margin-bottom: 5%;
 }
 
@@ -137,4 +137,22 @@ video {
   padding: 0;
   padding-top: 2%;
   margin-left: -10%;
+}
+
+ .contact-icons:hover {
+  color: transparent;
+}
+
+.contact-icons:active {
+    color: transparent;
+}
+
+.list-pad {
+  padding-bottom: 40px;
+}
+
+.thanks-text p {
+  margin-top: 150px;
+  font-size: 1.1rem;
+  padding-bottom: 40px;
 }
