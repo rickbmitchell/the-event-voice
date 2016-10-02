@@ -76,6 +76,10 @@ li {
   padding-bottom: 5%;
 }
 
+.about-text {
+  padding-bottom: 40px;
+}
+
 .center-list {
   text-align: center;
 
@@ -155,4 +159,10 @@ video {
   margin-top: 150px;
   font-size: 1.1rem;
   padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 40em) {
+.headshotter {
+  text-align: center;
+}
 }
