@@ -141,6 +141,7 @@ video {
 .contact-text, .contact-icons {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 1%;
 }
 
 .contact-icons i {
@@ -174,7 +175,6 @@ video {
 }
 
 .no-pad-2 {
-  padding-left: 0;
   margin-top: 1%;
 }
 
@@ -182,6 +182,15 @@ video {
   margin-top: 150px;
   font-size: 1.1rem;
   padding-bottom: 40px;
+}
+
+.linkedin {
+  margin-left: -5%;
+}
+
+.emailtext {
+  font-size: 1rem;
+  margin-left: -51%;
 }
 
 @media only screen and (max-width: 40em) {
@@ -198,12 +207,20 @@ video {
   margin-left: 5%;
 }
 
+.no-pad-2 {
+  margin-top: 3%;
+}
+
 
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   .text-fix {
     margin-left: -35%;
+  }
+
+  .no-pad {
+    margin-top: 5%;
   }
 
   .no-pad-2 {
